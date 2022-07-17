@@ -283,7 +283,7 @@ class Decathlon extends Module
         $product_id = '8551453';
 
         // $curl_connection = curl_init();
-        // curl_setopt($curl_connection, CURLOPT_URL, " https://api-eu.subsidia.org/spid/v4/superModel/model/8551453?availabilityDate=2021-08-06&locales=es_MX");
+        // curl_setopt($curl_connection, CURLOPT_URL, " https://api-eu.subsidia.org/spid/v4/superModel/model/$product_id?availabilityDate=2021-08-06&locales=es_MX");
 
         // curl_setopt($curl_connection, CURLOPT_RETURNTRANSFER, true);
 
